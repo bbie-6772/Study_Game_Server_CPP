@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\Study_Game_Server_CPP\\ChattingServer\\ConsoleHost\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6B18FA9E-C7B3-4A76-B6CF-C57EA9B2DC8D}|..\\LogicLib\\LogicLib.vcxproj|C:\\Users\\user\\source\\repos\\Study_Game_Server_CPP\\ChattingServer\\LogicLib\\LogicLib.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{6B18FA9E-C7B3-4A76-B6CF-C57EA9B2DC8D}|..\\LogicLib\\LogicLib.vcxproj|C:\\Users\\user\\source\\repos\\Study_Game_Server_CPP\\ChattingServer\\LogicLib\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{495F7E7C-CE50-4549-AE84-E56D49C54317}|..\\ServerNetLib\\ServerNetLib.vcxproj|C:\\Users\\user\\source\\repos\\Study_Game_Server_CPP\\ChattingServer\\ServerNetLib\\ServerNetLib.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
@@ -20,7 +20,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -31,21 +31,21 @@
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LogicLib.cpp",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Study_Game_Server_CPP\\ChattingServer\\LogicLib\\LogicLib.cpp",
-              "RelativeDocumentMoniker": "..\\LogicLib\\LogicLib.cpp",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\Study_Game_Server_CPP\\ChattingServer\\LogicLib\\LogicLib.cpp",
-              "RelativeToolTip": "..\\LogicLib\\LogicLib.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
+              "Title": "Main.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Study_Game_Server_CPP\\ChattingServer\\LogicLib\\Main.cpp",
+              "RelativeDocumentMoniker": "..\\LogicLib\\Main.cpp",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Study_Game_Server_CPP\\ChattingServer\\LogicLib\\Main.cpp",
+              "RelativeToolTip": "..\\LogicLib\\Main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-05-01T01:41:43.077Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             },
             {
               "$type": "Document",
@@ -57,8 +57,7 @@
               "RelativeToolTip": "..\\ServerNetLib\\ServerNetLib.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-01T01:41:12.577Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T01:41:12.577Z"
             },
             {
               "$type": "Document",
@@ -70,8 +69,7 @@
               "RelativeToolTip": "main.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-01T01:38:36.782Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T01:38:36.782Z"
             }
           ]
         }

@@ -1,4 +1,10 @@
 {
-  "ExpandedNodes": [],
+  "ExpandedNodes": [
+    "",
+    "\\ConsoleHost",
+    "\\LogicLib",
+    "\\ServerNetLib"
+  ],
+  "SelectedNode": "\\LogicLib\\Main.cpp",
   "PreviewInSolutionExplorer": false
 }

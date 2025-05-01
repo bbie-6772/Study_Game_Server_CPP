@@ -15,8 +15,22 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="LogicLib.cpp">
+    <ClCompile Include="Main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Common\conmanip.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\ErrorCode.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Packet.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\PacketID.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
