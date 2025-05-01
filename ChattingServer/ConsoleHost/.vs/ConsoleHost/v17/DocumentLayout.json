@@ -1,0 +1,81 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\Study_Game_Server_CPP\\ChattingServer\\ConsoleHost\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6B18FA9E-C7B3-4A76-B6CF-C57EA9B2DC8D}|..\\LogicLib\\LogicLib.vcxproj|C:\\Users\\user\\source\\repos\\Study_Game_Server_CPP\\ChattingServer\\LogicLib\\LogicLib.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{495F7E7C-CE50-4549-AE84-E56D49C54317}|..\\ServerNetLib\\ServerNetLib.vcxproj|C:\\Users\\user\\source\\repos\\Study_Game_Server_CPP\\ChattingServer\\ServerNetLib\\ServerNetLib.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4D464E0-E271-4598-9926-D351632CEADA}|ConsoleHost.vcxproj|C:\\Users\\user\\source\\repos\\Study_Game_Server_CPP\\ChattingServer\\ConsoleHost\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C4D464E0-E271-4598-9926-D351632CEADA}|ConsoleHost.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LogicLib.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Study_Game_Server_CPP\\ChattingServer\\LogicLib\\LogicLib.cpp",
+              "RelativeDocumentMoniker": "..\\LogicLib\\LogicLib.cpp",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Study_Game_Server_CPP\\ChattingServer\\LogicLib\\LogicLib.cpp",
+              "RelativeToolTip": "..\\LogicLib\\LogicLib.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-01T01:41:43.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ServerNetLib.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Study_Game_Server_CPP\\ChattingServer\\ServerNetLib\\ServerNetLib.cpp",
+              "RelativeDocumentMoniker": "..\\ServerNetLib\\ServerNetLib.cpp",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Study_Game_Server_CPP\\ChattingServer\\ServerNetLib\\ServerNetLib.cpp",
+              "RelativeToolTip": "..\\ServerNetLib\\ServerNetLib.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-01T01:41:12.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Study_Game_Server_CPP\\ChattingServer\\ConsoleHost\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\Study_Game_Server_CPP\\ChattingServer\\ConsoleHost\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-01T01:38:36.782Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
