@@ -129,6 +129,10 @@
   <ItemGroup>
     <ClCompile Include="ServerNetLib.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ILog.h" />
+    <ClInclude Include="ITcpNetwork.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

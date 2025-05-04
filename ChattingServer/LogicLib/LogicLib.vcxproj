@@ -134,6 +134,7 @@
     <ClInclude Include="..\Common\ErrorCode.h" />
     <ClInclude Include="..\Common\Packet.h" />
     <ClInclude Include="..\Common\PacketID.h" />
+    <ClInclude Include="ConsoleLogger.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
