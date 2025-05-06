@@ -14,7 +14,7 @@ using namespace conmanip;
 #pragma warning( pop )
 #endif
 
-#include "../ServerNetLib/ILog.h"
+#include "../ServerNetLib/interface_log.h"
 
 namespace NLogicLib
 {
