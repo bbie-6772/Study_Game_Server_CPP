@@ -16,11 +16,11 @@ namespace NServerNetLib
 	enum class LOG_LEVEL : int16_t
 	{
 		// 로그의 가장 상세한 추적용 메시지(trace messages) 
-		L_TRACE = 1,
-		L_DEBUG = 2,
-		L_WARN = 3,
-		L_ERROR = 4,
-		L_INFO = 5,
+		kL_TRACE = 1,
+		kL_DEBUG = 2,
+		kL_WARN = 3,
+		kL_ERROR = 4,
+		kL_INFO = 5,
 	};
 
 	class ILog
@@ -47,19 +47,19 @@ namespace NServerNetLib
 			
 			switch (level)
 			{
-			case LOG_LEVEL::L_TRACE:
+			case LOG_LEVEL::kL_TRACE:
 				Trace(szText);
 				break;
-			case LOG_LEVEL::L_DEBUG:
+			case LOG_LEVEL::kL_DEBUG:
 				Debug(szText);
 				break;
-			case LOG_LEVEL::L_WARN:
+			case LOG_LEVEL::kL_WARN:
 				Warn(szText);
 				break;
-			case LOG_LEVEL::L_ERROR:
+			case LOG_LEVEL::kL_ERROR:
 				Error(szText);
 				break;
-			case LOG_LEVEL::L_INFO:
+			case LOG_LEVEL::kL_INFO:
 				Info(szText);
 				break;
 			default:
