@@ -13,7 +13,7 @@ namespace NServerNetLib
 	// 버퍼 크기를 미리 정해두어 필요한 만큼만 메모리를 할당
 	constexpr int MAX_LOG_STRING_LENGTH = 1024;
 
-	enum class LOG_LEVEL : short
+	enum class LOG_LEVEL : int16_t
 	{
 		// 로그의 가장 상세한 추적용 메시지(trace messages) 
 		L_TRACE = 1,
@@ -73,7 +73,6 @@ namespace NServerNetLib
 		virtual void Warn(const char* format) = 0;
 		virtual void Error(const char* format) = 0;
 		virtual void Info(const char* format) = 0;
-
 	};
 
 }
