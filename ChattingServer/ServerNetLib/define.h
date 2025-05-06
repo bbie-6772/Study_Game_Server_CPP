@@ -55,11 +55,11 @@ namespace NServerNetLib
 		// 배열의 모든 원소를 0으로 초기화 ->  빈 문자열 상태 생성
 		char IP[MAX_IP_LEN] = {0};
 
-		unsigned char* pRecvBuffer = nullptr;
+		uint8_t* pRecvBuffer = nullptr;
 		int32_t RemainingDataSize = 0;
 		int32_t PrevReadPosInRecvBuffer = 0;
 
-		unsigned char* pSendBuffer = nullptr;
+		uint8_t* pSendBuffer = nullptr;
 		int32_t SendSize = 0;
 	};
 
@@ -68,7 +68,7 @@ namespace NServerNetLib
 		int32_t SessionIndex = 0;
 		int16_t PacketId = 0;
 		int16_t PacketBodySize = 0;
-		char* pRefData = 0;
+		uint8_t* pRefData = 0;
 	};
 
 	enum class SOCKET_CLOSE_CASE : int16_t
@@ -95,14 +95,14 @@ namespace NServerNetLib
 		int16_t TotalSize;
 		int16_t Id;
 		// 예약 공간을 미리 확보하는 용도
-		unsigned char Reserve;
+		uint8_t Reserve;
 	};
 	constexpr int PACKET_HEADER_SIZE = sizeof(PacketHeader);
 
 	// 시스템의 세션(연결)을 닫는(종료하는) 알림 패킷
 	struct PkNtfSysCloseSEssion : PacketHeader
 	{
-		int SockFD;
+		int32_t SockFD;
 	};
 #pragma pack(pop)
 }
