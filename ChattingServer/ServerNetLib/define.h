@@ -68,7 +68,7 @@ namespace NServerNetLib
 		int32_t SessionIndex = 0;
 		int16_t PacketId = 0;
 		int16_t PacketBodySize = 0;
-		uint8_t* pRefData = 0;
+		int8_t* pRefData = 0;
 	};
 
 	enum class SOCKET_CLOSE_CASE : int16_t
