@@ -1,6 +1,9 @@
 #pragma once
 
+// Lock 제어
 #include <mutex>
+// 콘솔 출력 제어
+#include <iostream>
 
 #ifdef _WIN32
 // 경고 설정 저장
