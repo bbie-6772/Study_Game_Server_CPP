@@ -11,7 +11,7 @@
 namespace NServerNetLib
 {
 	// 버퍼 크기를 미리 정해두어 필요한 만큼만 메모리를 할당
-	const int MAX_LOG_STRING_LENGTH = 1024;
+	constexpr int MAX_LOG_STRING_LENGTH = 1024;
 
 	enum class LOG_LEVEL : short
 	{
