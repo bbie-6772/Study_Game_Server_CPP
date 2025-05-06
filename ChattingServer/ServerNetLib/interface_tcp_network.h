@@ -16,7 +16,7 @@ namespace NServerNetLib
 		virtual NET_ERROR_CODE Init(const ServerConfig* pConfig, ILog* pLogger) { return NET_ERROR_CODE::kNONE;  }
 
 		virtual NET_ERROR_CODE SendData(const int32_t sessionIndex, const int16_t packetId,
-			const int16_t size, const unsigned char* pMsg) {
+			const int16_t bodySize, const char* pMsg) {
 			return NET_ERROR_CODE::kNONE;
 		}
 
