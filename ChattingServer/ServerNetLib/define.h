@@ -55,11 +55,11 @@ namespace NServerNetLib
 		// 배열의 모든 원소를 0으로 초기화 ->  빈 문자열 상태 생성
 		char IP[MAX_IP_LEN] = {0};
 
-		uint8_t* pRecvBuffer = nullptr;
+		char* pRecvBuffer = nullptr;
 		int32_t RemainingDataSize = 0;
 		int32_t PrevReadPosInRecvBuffer = 0;
 
-		uint8_t* pSendBuffer = nullptr;
+		char* pSendBuffer = nullptr;
 		int32_t SendSize = 0;
 	};
 
